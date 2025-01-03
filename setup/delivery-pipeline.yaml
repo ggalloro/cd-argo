@@ -16,7 +16,7 @@ apiVersion: deploy.cloud.google.com/v1
 kind: DeliveryPipeline
 metadata:
   name: cd-argo-pipeline
-description: Secure CD on Google Cloud - End to end pipeline
+description: CD w Cloud Deploy & Argo CD - End to end pipeline
 serialPipeline:
   stages:
   - targetId: qa
