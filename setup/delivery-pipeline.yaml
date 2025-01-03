@@ -37,7 +37,7 @@ deployParameters:
   customTarget/gitPath: deploy/k8s.yaml
   customTarget/gitSecret: projects/$PROJECT_ID/secrets/$SECRET_ID/versions/$SECRET_VERSION
   customTarget/gitSourceBranch: qa
-  customTarget/gitEnableArgoSyncPoll: true
+  customTarget/gitEnableArgoSyncPoll: "true"
   customTarget/gitGKECluster: projects/$PROJECT_ID/locations/$ZONE/clusters/$QA_CLUSTER
   customTarget/gitArgoApplication: cdongcp-qa
   customTarget/gitArgoNamespace: argocd
@@ -53,7 +53,7 @@ deployParameters:
   customTarget/gitPath: deploy/k8s.yaml
   customTarget/gitSecret: projects/$PROJECT_ID/secrets/$SECRET_ID/versions/$SECRET_VERSION
   customTarget/gitSourceBranch: main
-  customTarget/gitEnableArgoSyncPoll: true 
+  customTarget/gitEnableArgoSyncPoll: "true"
   customTarget/gitGKECluster: projects/$PROJECT_ID/locations/$ZONE/clusters/$QA_CLUSTER
   customTarget/gitArgoApplication: cdongcp-prod
   customTarget/gitArgoNamespace: argocd
