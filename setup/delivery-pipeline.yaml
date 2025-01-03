@@ -57,5 +57,4 @@ deployParameters:
   customTarget/gitGKECluster: projects/$PROJECT_ID/locations/$ZONE/clusters/$QA_CLUSTER
   customTarget/gitArgoApplication: cdongcp-prod
   customTarget/gitArgoNamespace: argocd
----
 
