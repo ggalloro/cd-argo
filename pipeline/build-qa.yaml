@@ -18,9 +18,5 @@ steps:
           --region $LOCATION --annotations "commitId=${REVISION_ID}" --build-artifacts /workspace/artifacts.json
   waitFor: ['Build the image with Skaffold']
 
-images:
-- $LOCATION-docker.pkg.dev/$PROJECT_ID/cd-custom-targets/cdongcp-app:${SHORT_SHA}
-options:
-  requestedVerifyOption: VERIFIED
 
 
