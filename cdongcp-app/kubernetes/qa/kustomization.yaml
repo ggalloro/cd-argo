@@ -18,4 +18,3 @@ patches:
 - path: target.yaml
 resources:
 - ../base
-- httproute.yaml
